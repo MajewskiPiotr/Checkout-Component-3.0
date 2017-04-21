@@ -13,6 +13,12 @@ public class Test {
 		
 		System.out.println(list);
 		
+		Calculate calc = new Calculate();
+		
+		calc.individualPrice("A", 100);
+		
+		System.out.println(list);
+
 	}
 
 }
