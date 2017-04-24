@@ -17,6 +17,11 @@ public class Product {
 		this.unit = unit;
 		this.specPrice = specPrice;
 	}
+	
+	public void setPrice(double price){
+		this.price = price;
+	}
+	
 	public String getName() {
 		return name;
 	}
@@ -36,6 +41,11 @@ public class Product {
 
 	public double getSpecPrice() {
 		return specPrice;
+	}
+
+	@Override
+	public String toString() {
+		return "Product [name=" + name + ", price=" + price + ", unit=" + unit + ", specPrice=" + specPrice + "]";
 	}
 	
 	

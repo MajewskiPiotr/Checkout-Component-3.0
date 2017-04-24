@@ -15,7 +15,7 @@ public class Test {
 		
 		Calculate calc = new Calculate();
 		
-		calc.individualPrice("A", 100);
+		calc.individualPrice(list, "A", 1100);
 		
 		System.out.println(list);
 
