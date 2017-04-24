@@ -8,6 +8,8 @@ import Dao.ProductList;
 public class Test {
 
 	public static void main(String[] args) {
+		
+		
 
 		ArrayList<Product> list = new ProductList().returnAllProd();
 		
